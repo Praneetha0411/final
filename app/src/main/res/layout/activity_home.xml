@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FC96CDC2"
     tools:context=".HomeActivity">
 
 
@@ -25,11 +26,12 @@
         android:id="@+id/view"
         android:layout_width="0dp"
         android:layout_height="215dp"
-        android:background="@drawable/rectangle_round"
-        android:elevation="6dp"
+        android:background="@drawable/ellipse"
+        android:elevation="9dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -37,14 +39,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Welcome User"
-            android:textColor="#ffffff"
+            android:textColor="#0E0E0E"
             android:textSize="26sp" />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Choose an option"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -56,28 +59,26 @@
         android:layout_marginBottom="237dp"
         android:background="@drawable/button_home"
         android:text="Medical Folder"
-        android:textColor="#22BE87"
+        android:textColor="#5FA186"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.62" />
 
     <Button
         android:id="@+id/myDoctors"
         android:layout_width="105dp"
         android:layout_height="96dp"
-        android:layout_marginTop="43dp"
         android:background="@drawable/button_home"
         android:text="My Doctors"
-        android:textColor="#22BE87"
+        android:textColor="#5FA186"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+        tools:layout_editor_absoluteY="332dp" />
 
     <Button
         android:id="@+id/appointement2"
@@ -87,14 +88,14 @@
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
         android:text="Appointement"
-        android:textColor="#22BE87"
+        android:textColor="#5FA186"
         android:textSize="13sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.671" />
+        app:layout_constraintVertical_bias="0.672" />
 
     <Button
         android:id="@+id/profile"
@@ -104,14 +105,14 @@
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
         android:text="Profile"
-        android:textColor="#22BE87"
+        android:textColor="#5FA186"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintHorizontal_bias="0.326"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.671" />
+        app:layout_constraintVertical_bias="0.672" />
 
     <Button
         android:id="@+id/searchBtn"
@@ -121,7 +122,7 @@
         android:layout_marginBottom="237dp"
         android:background="@drawable/button_home"
         android:text="Search"
-        android:textColor="#22BE87"
+        android:textColor="#5FA186"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
