@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.ensias.healthcareapp.Common.Common;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -16,7 +17,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 public class HomeActivity extends AppCompatActivity {
     Button SignOutBtn;
-    Button searchPatBtn;
+    ImageButton searchPatBtn;
     Button myDoctors;
     Button BtnRequst;
     Button profile;
@@ -33,7 +34,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(k);
             }
         });
-        searchPatBtn = (Button)findViewById(R.id.searchBtn);
+        searchPatBtn = (ImageButton) findViewById(R.id.searchBtn);
         searchPatBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
