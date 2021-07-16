@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginBottom="8dp"
-    app:cardBackgroundColor="@color/cardview_light_background">
+    android:background="#FC96CDC2"
+    app:cardBackgroundColor="#FC96CDC2">
 
     <RelativeLayout
+        android:id="@+id/parent_layout"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:id="@+id/parent_layout">
+        android:layout_height="80dp">
 
         <ImageView
             android:id="@+id/patient_item_image"

@@ -7,7 +7,7 @@
     android:layout_marginEnd="8dp"
     android:layout_marginStart="8dp"
     android:layout_marginTop="8dp"
-    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardBackgroundColor="#FC96CDC2"
     app:cardCornerRadius="8dp">
 
     <RelativeLayout
