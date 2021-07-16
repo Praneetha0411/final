@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_dark_background"
+    android:background="#FC96CDC2"
     tools:context=".DoctorAppointementActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/DoctorAppointement"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="0dp">
 
     </androidx.recyclerview.widget.RecyclerView>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

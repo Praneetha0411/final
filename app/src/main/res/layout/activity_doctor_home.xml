@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5E5E5"
+    android:background="#A9BBD1CA"
     tools:context=".DoctorHomeActivity">
 
 
@@ -18,20 +18,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_person" />
+        app:srcCompat="@drawable/blackperson" />
 
 
     <Button
         android:id="@+id/myCalendarBtn"
         android:layout_width="118dp"
         android:layout_height="107dp"
-        android:background="@drawable/button_home"
+        android:background="@drawable/rectangle1"
         android:fontFamily="@font/roboto"
         android:gravity="bottom|center"
         android:paddingBottom="8dp"
         android:text="My Calendar"
         android:textAllCaps="false"
-        android:textColor="#22BE87"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,14 +60,14 @@
         android:layout_height="107dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="237dp"
-        android:background="@drawable/button_home"
-        android:text="Appointement"
-        android:textColor="#22BE87"
-        android:textSize="16sp"
-        android:textAllCaps="false"
+        android:background="@drawable/rectangle1"
         android:fontFamily="@font/roboto"
         android:gravity="bottom|center"
         android:paddingBottom="8dp"
+        android:text="Appointement"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.86"
@@ -81,14 +81,14 @@
         android:layout_height="107dp"
         android:layout_marginTop="168dp"
         android:layout_marginBottom="98dp"
-        android:background="@drawable/button_home"
-        android:text=" Patient Request"
-        android:textColor="#22BE87"
-        android:textSize="14sp"
+        android:background="@drawable/rectangle1"
         android:fontFamily="@font/roboto"
-        android:textAllCaps="false"
         android:gravity="bottom|center"
         android:paddingBottom="8dp"
+        android:text=" Patient Request"
+        android:textAllCaps="false"
+        android:textColor="#020202"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.86"
@@ -102,13 +102,13 @@
         android:layout_height="107dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="237dp"
-        android:background="@drawable/button_home"
+        android:background="@drawable/rectangle1"
         android:fontFamily="@font/roboto"
         android:gravity="bottom|center"
         android:paddingBottom="8dp"
         android:text="My Patients"
         android:textAllCaps="false"
-        android:textColor="#22BE87"
+        android:textColor="#020202"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,13 +123,13 @@
         android:layout_height="107dp"
         android:layout_marginTop="168dp"
         android:layout_marginBottom="98dp"
-        android:background="@drawable/button_home"
-        android:text="Profile"
+        android:background="@drawable/rectangle1"
         android:fontFamily="@font/roboto"
         android:gravity="bottom|center"
-        android:textAllCaps="false"
         android:paddingBottom="8dp"
-        android:textColor="#22BE87"
+        android:text="Profile"
+        android:textAllCaps="false"
+        android:textColor="#050505"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -142,7 +142,7 @@
         android:id="@+id/view"
         android:layout_width="0dp"
         android:layout_height="215dp"
-        android:background="@drawable/rectangle_round"
+        android:background="@drawable/bestelli"
         android:elevation="6dp"
         android:gravity="center"
         android:orientation="vertical"
@@ -166,7 +166,7 @@
                 android:layout_marginBottom="156dp"
                 android:gravity="center"
                 android:text="Home"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:textSize="32sp" />
 
             <TextView
@@ -180,7 +180,7 @@
                 android:layout_marginLeft="106dp"
                 android:layout_marginBottom="79dp"
                 android:text="Welcome Doctor"
-                android:textColor="#ffffff"
+                android:textColor="#050505"
                 android:textSize="26sp" />
 
             <TextView
@@ -193,7 +193,7 @@
                 android:layout_marginLeft="105dp"
                 android:layout_marginBottom="55dp"
                 android:text="How we can help you oday?"
-                android:textColor="#ffffff"
+                android:textColor="#000000"
                 android:textSize="16sp" />
 
         </RelativeLayout>
@@ -212,7 +212,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.054"
-        app:srcCompat="@drawable/ic_profile" />
+        app:srcCompat="@drawable/blacklist" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -224,8 +224,8 @@
         app:layout_constraintHorizontal_bias="0.792"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.443"
-        app:srcCompat="@drawable/ic_appointement" />
+        app:layout_constraintVertical_bias="0.361"
+        app:srcCompat="@drawable/blackcalender" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -234,11 +234,11 @@
         android:elevation="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintHorizontal_bias="0.787"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.66"
-        app:srcCompat="@drawable/ic_request" />
+        app:layout_constraintVertical_bias="0.556"
+        app:srcCompat="@drawable/blackrequest" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -251,7 +251,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
         app:layout_constraintVertical_bias="0.996"
-        app:srcCompat="@drawable/ic_calendar" />
+        app:srcCompat="@drawable/blackcal" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

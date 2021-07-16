@@ -10,23 +10,23 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#22BE87"
+        android:background="#FC96CDC2"
         android:minHeight="?attr/actionBarSize"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="#fff"
-        app:contentInsetLeft="0dp"
-        app:contentInsetStart="0dp">
+        app:titleTextColor="#070707">
+
         <TextView
             android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Edit My Profile"
-            android:textColor="@android:color/white"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_gravity="center"
-            />
+            android:text="Edit My Profile"
+            android:textColor="@android:color/white" />
     </androidx.appcompat.widget.Toolbar>
 
 
@@ -54,7 +54,7 @@
             android:id="@+id/nameText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:textColor="#752525" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -116,7 +116,7 @@
         android:id="@+id/image_profile"
         android:layout_width="118dp"
         android:layout_height="119dp"
-        android:background="@drawable/img"
+        android:background="@drawable/doctorlogo"
         android:scaleType="center"
         app:layout_constraintBottom_toTopOf="@+id/name"
         app:layout_constraintEnd_toEndOf="parent"

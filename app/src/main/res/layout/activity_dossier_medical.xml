@@ -17,7 +17,8 @@
             android:id="@+id/imageView2"
             android:layout_width="70dp"
             android:layout_height="77dp"
-            app:srcCompat="@drawable/doctor" />
+            app:srcCompat="@drawable/healthlogo" />
+
         <TextView
             android:id="@+id/patient_address"
             android:layout_width="wrap_content"
@@ -29,7 +30,7 @@
             android:layout_marginLeft="88dp"
             android:layout_marginTop="7dp"
             android:text="Address"
-            android:textColor="#000000" />
+            android:textColor="#4F7165" />
 
         <TextView
             android:id="@+id/phone_number"
@@ -42,7 +43,7 @@
             android:layout_marginLeft="88dp"
             android:layout_marginTop="7dp"
             android:text="Phone"
-            android:textColor="#000000"
+            android:textColor="#4F7165"
             android:textSize="12dp" />
 
         <TextView
@@ -56,7 +57,7 @@
             android:maxLines="1"
             android:text="Name"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#22BE87" />
+            android:textColor="#000000" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
@@ -65,29 +66,32 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_gravity="bottom|end"
-            android:layout_margin="14dp"
-            android:layout_marginEnd="54dp"
-            android:layout_marginRight="54dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="14dp"
             android:clickable="true"
             android:scaleType="center"
-            app:backgroundTint="@color/colorPrimaryDark"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
+            app:backgroundTint="?attr/colorAccent"
+            app:srcCompat="@drawable/whiteedit" />/>
 
         <Button
             android:id="@+id/infobtn"
-            android:layout_width="54dp"
-            android:layout_height="64dp"
+            android:layout_width="47dp"
+            android:layout_height="61dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_gravity="bottom|end"
             android:layout_marginStart="14dp"
             android:layout_marginLeft="14dp"
             android:layout_marginTop="13dp"
-            android:layout_marginEnd="102dp"
-            android:layout_marginRight="102dp"
-            android:background="@drawable/ic_assignment_ind_black_24dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:background="@drawable/contacttag"
             android:clickable="true"
-            android:scaleType="center"/>
+            android:scaleType="center" />
 
 
     </RelativeLayout>
@@ -95,15 +99,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <!-- 1 | Add TabLayout to handle tabs -->
+
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/activity_main_tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#B6C9F1"
+        android:background="#3D9A8F"
         app:tabIndicatorColor="@color/colorPrimary"
-        app:tabTextColor="#D4E0F8"
-        app:tabSelectedTextColor="#fff"/>
-
+        app:tabSelectedTextColor="#A4E4C4"
+        app:tabTextColor="#FC96CDC2" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/ViewPagerDossier"
@@ -112,6 +117,7 @@
 
 
     </androidx.viewpager.widget.ViewPager>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton3"
         android:layout_width="wrap_content"

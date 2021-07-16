@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_header_selector"
+    android:background="#FC96CDC2"
     tools:context=".FirstSigninActivity">
 
     <EditText
@@ -106,7 +106,7 @@
         android:id="@+id/confirmeBtn"
         android:layout_width="260dp"
         android:layout_height="46dp"
-        android:background="#22BE87"
+        android:background="#365E68"
         android:text="CONFIRM"
         android:textColor="#ffffff"
         android:textSize="18sp"

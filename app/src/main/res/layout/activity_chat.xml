@@ -19,16 +19,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="#22BEA9">
+            android:background="#FC96CDC2">
+
             <TextView
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="@font/courgette"
-                android:textColor="#FFFFFF"
-                android:text="Messages" />
+                android:text="Messages"
+                android:textSize="30dp" />
         </LinearLayout>
         <!-- RECYCLER VIEW -->
         <androidx.recyclerview.widget.RecyclerView

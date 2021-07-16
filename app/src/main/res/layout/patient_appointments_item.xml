@@ -25,7 +25,7 @@
             android:layout_marginTop="8dp"
             android:fontFamily="@font/roboto"
             android:text="Patient name"
-            android:textColor="#22BE87"
+            android:textColor="#FC6CAC9F"
             android:textSize="24sp" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:layout_marginTop="39dp"
             android:fontFamily="@font/roboto"
             android:text="Status:"
-            android:textColor="#B9B9B9"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -54,7 +54,7 @@
             android:layout_marginTop="40dp"
             android:fontFamily="@font/roboto"
             android:text="Accepted"
-            android:textColor="#22BE87"
+            android:textColor="#FC6CAC9F"
             android:textSize="14sp" />
 
         <TextView
@@ -67,11 +67,11 @@
             android:layout_marginTop="66dp"
             android:layout_marginEnd="11dp"
             android:layout_marginRight="11dp"
-            android:background="@drawable/button_radius_accent_color"
-            android:fontFamily="@font/roboto_light"
+            android:background="@drawable/ellipse"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:text="Hospitalisation"
-            android:textColor="#fff"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -86,7 +86,7 @@
             android:layout_marginTop="43dp"
             android:fontFamily="@font/roboto_light"
             android:text="0652316456"
-            android:textColor="#B9B9B9"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <ImageView
@@ -100,7 +100,7 @@
             android:layout_marginLeft="14dp"
             android:layout_marginBottom="16dp"
             android:foregroundGravity="center"
-            app:srcCompat="@drawable/ic_anon_user_48dp" />
+            app:srcCompat="@drawable/pat" />
 
         <TextView
             android:id="@+id/appointement_date"
@@ -114,7 +114,7 @@
             android:layout_marginTop="68dp"
             android:fontFamily="@font/roboto"
             android:text="12/06/2020 at 9pm"
-            android:textColor="#22BE87"
+            android:textColor="#FC6CAC9F"
             android:textSize="14sp" />
 
 
