@@ -11,14 +11,14 @@
     android:orientation="vertical">
 
     <androidx.appcompat.widget.Toolbar
-        android:theme="@style/SearchViewStyle"
         android:id="@+id/activity_main_toolbar"
-        android:minHeight="?attr/actionBarSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleTextColor="@android:color/white"
+        android:background="#669785"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/SearchViewStyle"
         app:subtitleTextColor="@android:color/white"
-        android:background="#22BE87"/>
+        app:titleTextColor="@android:color/white" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/serachPatRecycle"
