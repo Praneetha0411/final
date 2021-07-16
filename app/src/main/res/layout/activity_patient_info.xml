@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#22BEA9"
+        android:background="#98C1BB"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -17,9 +17,9 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/courgette"
-            android:text="physical Information"
-            android:textColor="#FFFFFF"
+            android:fontFamily="@font/roboto"
+            android:text="Physical Information"
+            android:textColor="#070707"
             android:textSize="30dp" />
     </LinearLayout>
     <EditText

@@ -25,7 +25,7 @@
             android:layout_marginTop="26dp"
             android:fontFamily="@font/roboto"
             android:text="Patient name"
-            android:textColor="#22BE87" />
+            android:textColor="#517367" />
 
         <TextView
             android:id="@+id/appointement_type"
@@ -37,11 +37,11 @@
             android:layout_marginTop="82dp"
             android:layout_marginEnd="19dp"
             android:layout_marginRight="19dp"
-            android:background="@drawable/button_radius_accent_color"
+            android:background="@drawable/bestelli"
             android:fontFamily="@font/roboto_light"
             android:gravity="center"
             android:text="Hospitalisation"
-            android:textColor="#fff"
+            android:textColor="#000000"
             android:textSize="12sp" />
 
         <TextView
@@ -70,7 +70,7 @@
             android:layout_marginLeft="29dp"
             android:layout_marginBottom="26dp"
             android:foregroundGravity="center"
-            app:srcCompat="@drawable/ic_anon_user_48dp" />
+            app:srcCompat="@drawable/pat" />
 
         <TextView
             android:id="@+id/appointement_date"
@@ -84,7 +84,7 @@
             android:layout_marginTop="82dp"
             android:fontFamily="@font/roboto"
             android:text="12/06/2020 at 9pm"
-            android:textColor="#22BE87"
+            android:textColor="#517367"
             android:textSize="12sp" />
 
 

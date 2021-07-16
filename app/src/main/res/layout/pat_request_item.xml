@@ -19,7 +19,7 @@
             android:id="@+id/pat_request_item_image"
             android:layout_width="70dp"
             android:layout_height="77dp"
-            app:srcCompat="@drawable/doctor"
+            app:srcCompat="@drawable/doctorlogo"
             tools:ignore="VectorDrawableCompat" />
 
         <TextView
@@ -58,9 +58,9 @@
             android:layout_marginStart="88dp"
             android:layout_marginLeft="88dp"
             android:layout_marginTop="7dp"
-            android:textSize="12dp"
-            android:textColor="@color/colorAccent"
-            android:text="Online" />
+            android:text="Online"
+            android:textColor="#090909"
+            android:textSize="12dp" />
 
         <Button
             android:id="@+id/pat_request_accept_btn"
@@ -70,6 +70,8 @@
             android:layout_alignParentLeft="true"
             android:layout_marginStart="298dp"
             android:layout_marginLeft="298dp"
+            android:scrollbarThumbHorizontal="@drawable/Ellipse"
+            android:scrollbarThumbVertical="@drawable/bestelli"
             android:text="Accept" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

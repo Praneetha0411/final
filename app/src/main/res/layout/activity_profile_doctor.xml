@@ -42,14 +42,14 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"
-        app:srcCompat="@drawable/profile" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/doctorlogo" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="470dp"
-        android:background="@drawable/rounded_relativelayout"
+        android:background="@drawable/rectangle1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3">
@@ -100,7 +100,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
-            android:text="Doctor tazi"
+            android:text="Doctor Raj"
             android:textColor="#000"
             android:textSize="24sp" />
 
@@ -115,7 +115,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="65dp"
             android:text="Patient"
-            android:textColor="#B9B9B9"
+            android:textColor="#6E6767"
             android:textSize="16sp" />
 
         <com.google.android.material.textview.MaterialTextView
@@ -157,7 +157,7 @@
             android:layout_marginLeft="74dp"
             android:layout_marginTop="116dp"
             android:text="+212 (0) 5 37 64 95 15"
-            android:textColor="#B9B9B9"
+            android:textColor="#101010"
             android:textSize="16sp" />
 
         <com.google.android.material.textview.MaterialTextView
@@ -170,8 +170,8 @@
             android:layout_marginStart="75dp"
             android:layout_marginLeft="75dp"
             android:layout_marginTop="160dp"
-            android:text="dr.yamine@gmail.com"
-            android:textColor="#B9B9B9"
+            android:text="raj@gmail.com"
+            android:textColor="#000000"
             android:textSize="16sp" />
 
         <com.google.android.material.textview.MaterialTextView
@@ -184,8 +184,8 @@
             android:layout_marginStart="75dp"
             android:layout_marginLeft="75dp"
             android:layout_marginTop="204dp"
-            android:text="Dr Yassmine Alaoui Pédiatre, 11 Avenue Al Abtal, Rabat"
-            android:textColor="#B9B9B9"
+            android:text="RR Hospitals, 13 street, Delhi, India"
+            android:textColor="#000000"
             android:textSize="16sp" />
 
 

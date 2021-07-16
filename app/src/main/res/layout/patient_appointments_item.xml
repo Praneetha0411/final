@@ -67,7 +67,7 @@
             android:layout_marginTop="66dp"
             android:layout_marginEnd="11dp"
             android:layout_marginRight="11dp"
-            android:background="@drawable/ellipse"
+            android:background="@drawable/Ellipse"
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:text="Hospitalisation"
