@@ -25,6 +25,7 @@
         android:id="@+id/myCalendarBtn"
         android:layout_width="118dp"
         android:layout_height="107dp"
+        android:layout_marginTop="291dp"
         android:background="@drawable/rectangle1"
         android:fontFamily="@font/roboto"
         android:gravity="bottom|center"
@@ -37,8 +38,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/signOutBtn"
@@ -52,7 +53,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myCalendarBtn" />
 
     <Button
         android:id="@+id/btnRequst"
@@ -202,55 +204,71 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
         android:layout_marginTop="383dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
         android:elevation="19dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/profile"
+        app:layout_constraintEnd_toEndOf="@+id/profile"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/profile"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.054"
+        app:layout_constraintVertical_bias="0.423"
         app:srcCompat="@drawable/blacklist" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="35dp"
         android:elevation="19dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.792"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.361"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRequst"
+        app:layout_constraintEnd_toEndOf="@+id/btnRequst"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnRequst"
+        app:layout_constraintTop_toTopOf="@+id/btnRequst"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/blackcalender" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="62dp"
         android:layout_height="61dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="24dp"
         android:elevation="19dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.787"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.556"
+        app:layout_constraintBottom_toBottomOf="@+id/appointement"
+        app:layout_constraintEnd_toEndOf="@+id/appointement"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/appointement"
+        app:layout_constraintTop_toTopOf="@+id/appointement"
+        app:layout_constraintVertical_bias="0.09"
         app:srcCompat="@drawable/blackrequest" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="63dp"
         android:layout_height="61dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
         android:layout_marginBottom="80dp"
         android:elevation="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/myCalendarBtn"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.996"
+        app:layout_constraintTop_toTopOf="@+id/myCalendarBtn"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/blackcal" />
 
 
