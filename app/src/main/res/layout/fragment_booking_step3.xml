@@ -8,42 +8,44 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="155dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/valide"
-        android:background="#DAFBDF"/>
+        android:background="#F1F4F2"
+        android:src="@drawable/blackvalidate" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/rounded_dialog"
+        android:background="@drawable/rectangle1"
         android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Thank you for choosing our service !"
-        android:textAllCaps="true"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:padding="5sp"
-        android:layout_gravity="center_horizontal"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Appointement information"
-        android:textAllCaps="true"
-        android:textStyle="bold"
-        android:paddingTop="25dp"
-        android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5sp"
+            android:text="Thank you for choosing our us!"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:text="Appointement information"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
-            android:background="@color/cardview_dark_background"
             android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"/>
+            android:background="@color/cardview_dark_background" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,15 +57,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:src="@drawable/ic_date"/>
+                android:src="@drawable/ic_date" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/txt_booking_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
                 android:text="10h00 at 31/05/2020"
-                android:textSize="14sp"
-                android:layout_marginLeft="4dp"/>
+                android:textSize="14sp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -75,23 +79,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:src="@drawable/ic_account_24dp"/>
+                android:src="@drawable/ic_account_24dp" />
+
             <TextView
+                android:id="@+id/txt_booking_berber_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/txt_booking_berber_text"
+                android:layout_marginLeft="4dp"
                 android:text="David"
-                android:textSize="14sp"
-                android:layout_marginLeft="4dp"/>
+                android:textSize="14sp" />
         </LinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
-            android:background="@color/cardview_dark_background"
             android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"/>
+            android:background="@color/cardview_dark_background" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,15 +109,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:src="@drawable/ic_local_hospital_black_24dp"/>
+                android:src="@drawable/ic_local_hospital_black_24dp" />
+
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/txt_booking_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
                 android:text="Consultation"
-                android:textSize="14sp"
-                android:layout_marginLeft="4dp"/>
+                android:textSize="14sp" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -123,25 +131,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:src="@drawable/ic_phone_android_black_24dp"/>
+                android:src="@drawable/ic_phone_android_black_24dp" />
+
             <TextView
+                android:id="@+id/txt_booking_phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/txt_booking_phone"
+                android:layout_marginLeft="4dp"
                 android:text="0629123612"
-                android:textSize="14sp"
-                android:layout_marginLeft="4dp"/>
+                android:textSize="14sp" />
         </LinearLayout>
 
         <Button
             android:id="@+id/btn_confirm"
             android:layout_width="375dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
             android:background="@color/common_google_signin_btn_text_light_default"
             android:text="CONFIRM"
-            android:textColor="@android:color/white"
-            android:layout_gravity="center_horizontal"/>
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 

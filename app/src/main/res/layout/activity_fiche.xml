@@ -11,39 +11,36 @@
         android:id="@+id/fiche_maladie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Disease"
         android:inputType="text"
-        android:textColor="#22BE87"
-        android:textColorHint="#22BE87"
-        android:hint="Maladie" />
+        android:textColor="#6D9381" />
 
     <EditText
         android:id="@+id/fiche_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Description"
         android:inputType="textMultiLine"
         android:textColor="#22BE87"
-        android:textColorHint="#22BE87"
-        android:hint="Description"
-        />
+        android:textColorHint="#608779" />
 
     <EditText
         android:id="@+id/fiche_traitement"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Treatment"
         android:inputType="textMultiLine"
         android:textColor="#22BE87"
-        android:textColorHint="#22BE87"
-        android:hint="Traitement"
-        />
+        android:textColorHint="#608779" />
 
     <TextView
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#22BE87"
-        android:text="Type de fiche"
         android:layout_marginTop="16dp"
-        android:textSize="16sp"/>
+        android:text="Type the problem"
+        android:textColor="#608779"
+        android:textSize="16sp" />
 
     <Spinner
         android:id="@+id/fiche_type_spinner"

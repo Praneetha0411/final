@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amita</item>
+        <item>@font/archivo_narrow_bold</item>
         <item>@font/courgette</item>
     </array>
 </resources>
