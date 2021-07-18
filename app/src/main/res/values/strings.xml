@@ -60,13 +60,13 @@
     </string-array>
 
     <string-array name="specialite_spinner">
-        <item>Dentiste</item>
-        <item>Médecin général</item>
-        <item>ORL</item>
-        <item>Ophtalmologue</item>
-        <item>Pédiatre</item>
-        <item>Radiologue</item>
-        <item>Rhumatologue</item>
+        <item>Dentist</item>
+        <item>General physician</item>
+        <item>ENT</item>
+        <item>Ophthalmologist</item>
+        <item>Pediatrician</item>
+        <item>Radiologist</item>
+        <item>Rheumatologist</item>
     </string-array>
 
     <string-array name="blood_spinner">

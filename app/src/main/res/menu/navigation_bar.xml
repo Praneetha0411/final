@@ -21,31 +21,31 @@
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_general"
-                android:title="général"
+                android:title="General physician"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Dentiste"
-                android:title="Dentiste"
+                android:title="Dentist"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_ORL"
-                android:title="ORL"
+                android:title="ENT"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Ophtalmologue"
-                android:title="Ophtalmologue"
+                android:title="Ophthalmologist"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Pédiatre"
-                android:title="Pédiatre"
+                android:title="Pediatrician"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Radiologue"
-                android:title="Radiologue"
+                android:title="Radiologist"
                 app:showAsAction="ifRoom" />
             <item
                 android:id="@+id/option_Rhumatologue"
-                android:title="Rhumatologue"
+                android:title="Rheumatologist"
                 app:showAsAction="ifRoom" />
 
         </menu>
