@@ -18,10 +18,10 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="232dp"
         android:layout_marginTop="15dp"
         android:alpha="0.7"
-        app:srcCompat="@drawable/medcal_logo" />
+        app:srcCompat="@drawable/surgenicon" />
 
     <Spinner
         android:id="@+id/spinnerBooking"

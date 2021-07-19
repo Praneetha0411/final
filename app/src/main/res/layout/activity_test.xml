@@ -27,9 +27,9 @@
         app:sv_doneStepLineColor="@color/colorAccent"
         app:sv_doneStepMarkColor="@color/cardview_light_background"
         app:sv_doneTextColor="@color/cardview_light_background"
-        app:sv_selectedCircleColor="@color/colorPrimary"
+        app:sv_selectedCircleColor="@color/colorAccent"
         app:sv_selectedStepNumberColor="@color/common_google_signin_btn_text_light"
-        app:sv_selectedTextColor="@color/colorPrimary"
+        app:sv_selectedTextColor="@color/colorPrimaryDark"
         app:sv_stepPadding="12dp" />
 
     <com.ensias.healthcareapp.Common.NonSwipeViewPager
