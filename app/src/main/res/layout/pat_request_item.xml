@@ -70,7 +70,7 @@
             android:layout_alignParentLeft="true"
             android:layout_marginStart="298dp"
             android:layout_marginLeft="298dp"
-            android:scrollbarThumbHorizontal="@drawable/properell"
+            android:scrollbarThumbHorizontal="@drawable/bestelli"
             android:scrollbarThumbVertical="@drawable/bestelli"
             android:text="Accept" />
     </RelativeLayout>
