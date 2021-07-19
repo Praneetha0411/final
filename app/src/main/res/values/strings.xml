@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Health Care App</string>
+    <string name="app_name">DoctO</string>
     <string name="main_activity_description">Discute avec tes mentors, tout simplement.</string>
 
     <string name="login">Connexion</string>

@@ -1,0 +1,31 @@
+Index: app/src/main/res/layout/my_doctor_item.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.cardview.widget.CardView xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"wrap_content\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    android:layout_marginBottom=\"8dp\"\r\n    app:cardBackgroundColor=\"@color/cardview_light_background\">\r\n\r\n    <RelativeLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"80dp\">\r\n\r\n        <ImageView\r\n            android:id=\"@+id/doctor_item_image\"\r\n            android:layout_width=\"50dp\"\r\n            android:layout_height=\"60dp\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_alignParentBottom=\"true\"\r\n            android:layout_marginStart=\"15dp\"\r\n            android:layout_marginLeft=\"15dp\"\r\n            android:layout_marginBottom=\"10dp\"\r\n            app:srcCompat=\"@drawable/doctor\"\r\n            tools:ignore=\"VectorDrawableCompat\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/doctor_view_title\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_alignParentTop=\"true\"\r\n            android:layout_marginStart=\"87dp\"\r\n            android:layout_marginLeft=\"87dp\"\r\n            android:layout_marginTop=\"11dp\"\r\n            android:fontFamily=\"@font/roboto\"\r\n            android:maxLines=\"1\"\r\n            android:text=\"Title\"\r\n            android:textAppearance=\"@style/TextAppearance.AppCompat.Large\"\r\n            android:textColor=\"#22BE87\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/text_view_description\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_below=\"@id/doctor_view_title\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_marginStart=\"86dp\"\r\n            android:layout_marginLeft=\"86dp\"\r\n            android:layout_marginTop=\"10dp\"\r\n            android:text=\"Description\"\r\n            android:textColor=\"#B9B9B9\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/voir_fiche_btn\"\r\n            android:layout_width=\"33dp\"\r\n            android:layout_height=\"34dp\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_alignParentTop=\"true\"\r\n            android:layout_marginStart=\"358dp\"\r\n            android:layout_marginLeft=\"358dp\"\r\n            android:layout_marginTop=\"23dp\"\r\n            android:background=\"@drawable/ic_chat_black_24dp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/callBtn\"\r\n            android:layout_width=\"29dp\"\r\n            android:layout_height=\"29dp\"\r\n            android:layout_alignParentStart=\"true\"\r\n            android:layout_alignParentLeft=\"true\"\r\n            android:layout_alignParentBottom=\"true\"\r\n            android:layout_marginStart=\"316dp\"\r\n            android:layout_marginLeft=\"316dp\"\r\n            android:layout_marginBottom=\"25dp\"\r\n            android:background=\"@drawable/ic_call_black_24dp\" />\r\n\r\n    </RelativeLayout>\r\n</androidx.cardview.widget.CardView>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/my_doctor_item.xml	(revision c35d40f9d20bf738524bac5628d45d9d9ba8a0b3)
++++ app/src/main/res/layout/my_doctor_item.xml	(date 1626446110503)
+@@ -13,15 +13,15 @@
+ 
+         <ImageView
+             android:id="@+id/doctor_item_image"
+-            android:layout_width="50dp"
+-            android:layout_height="60dp"
++            android:layout_width="70dp"
++            android:layout_height="64dp"
+             android:layout_alignParentStart="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentBottom="true"
+-            android:layout_marginStart="15dp"
+-            android:layout_marginLeft="15dp"
+-            android:layout_marginBottom="10dp"
+-            app:srcCompat="@drawable/doctor"
++            android:layout_marginStart="6dp"
++            android:layout_marginLeft="6dp"
++            android:layout_marginBottom="9dp"
++            app:srcCompat="@drawable/doctorlogo"
+             tools:ignore="VectorDrawableCompat" />
+ 
+         <TextView
